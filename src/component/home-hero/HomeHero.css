@@ -1,3 +1,55 @@
 .home-hero {
   background-image: url('../../asset/home/Hero\ Image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 2rem;
+  width: 100vw;
+  height: 95vh;
+  padding: 5%;
+}
+
+.home-hero>div:first-child {
+  display: flex;
+  flex-direction: column;
+  max-width: 750px;
+}
+
+.home-hero>div:first-child>h1 {
+  color: var(--primary-blue);
+}
+
+.home-hero>div:first-child>p {
+  max-width: 80%;
+}
+
+.home-hero button {
+  font-size: var(--h6-font-size);
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+.home-hero>div:first-child {
+  max-width: 450px;
+}
+
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Small Desktop */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large Desktop */
+@media (min-width: 1200px) {
+
 }
