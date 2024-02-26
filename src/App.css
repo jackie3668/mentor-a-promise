@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --primary-yellow: #FDC529;
+  --primary-blue: #0A5EA2;
+  --darker-blue: #06305F;
+  --lighter-blue: #D5E3FF;
+  --red: #FF5449;
+  --darker-grey: #737373;
+  --lighter-grey: #BFBFBF;
+  --white: #FFFFFF;
+  --black: #000000;
+
+  --h1-font-size: 3.815rem;
+  --h2-font-size: 3.052rem;
+  --h3-font-size: 2.441rem;
+  --h4-font-size: 1.953rem;
+  --h5-font-size: 1.563rem;
+  --h6-font-size: 1.25rem;
+  --p-font-size: 1rem; 
+  --small-font-size: 0.875rem; 
+
+  --regular-font-weight: normal;
+  --bold-font-weight: 700;
+  --extra-bold-font-weight: 900;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1 {
+  font-weight: var(--regular-font-weight);
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-weight: var(--regular-font-weight);
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-weight: var(--regular-font-weight);
+  font-size: var(--h3-font-size);
+}
+
+h4 {
+  font-weight: var(--regular-font-weight);
+  font-size: var(--h4-font-size);
+}
+
+h5 {
+  font-weight: var(--regular-font-weight);
+  font-size: var(--h5-font-size);
+}
+
+h6 {
+  font-weight: var(--regular-font-weight);
+  font-size: var(--h6-font-size);
+}
+
+p, body {
+  font-weight: var(--regular-font-weight);
+  font-size: var(--p-font-size);
+}
+
+.p-bold {
+  font-weight: var(--bold-font-weight);
+  font-size: var(--p-font-size);
+}
+
+.p-extra-bold {
+  font-weight: var(--extra-bold-font-weight);
+  font-size: var(--p-font-size);
+}
+
+.small {
+  font-weight: var(--regular-font-weight);
+  font-size: var(--small-font-size);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+.round-button {
+  padding: 2% 5%;
+  border: none;
+  text-wrap: nowrap;
+  border-radius: 100px;
+  font-weight: var(--regular-font-weight);
+  font-size: var(--p-font-size);
+  color: var(--white);
+  background-color: var(--primary-blue);
+  box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, 0.2);
+}
+
+.round-button:hover {
+  background-color: var(--darker-blue);
+  transform: translateY(-5%);
+  box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 16px;
   }
 }
+
+/* Small Desktop */
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    font-size: 17px;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1200px) {
+  body {
+    font-size: 18px;
+  }
+}
+
