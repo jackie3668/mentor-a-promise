@@ -1,0 +1,39 @@
+.home-cta-general {
+  background-image: url('../../asset/home/pexels-nappy-936058\ 2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: 100vw;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  gap: 1rem;
+  padding: 5% ;
+}
+
+.home-cta-general h3,
+.home-cta-general h6 {
+ max-width: 525px;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .home-cta-general {
+    background-position: 100% 100%;
+    align-items: flex-end;
+    text-align: end;
+    padding: 2% 5%;
+  }
+}
+
+/* Small Desktop */
+@media (min-width: 992px)  {
+  .home-cta-general {
+    background-position: 0% 0%;
+    align-items: flex-start;
+    text-align: start;
+    padding: 5%;
+  }
+}

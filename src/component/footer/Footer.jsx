@@ -21,28 +21,28 @@ const Footer = () => {
           <div className="group">
             <p className='p-bold'>About Us</p>
             <ul>
-              <li><p><Link>Our story</Link></p></li>
-              <li><p><Link>Our values</Link></p></li>
-              <li><p><Link>What we offer</Link></p></li>
-              <li><p><Link>Our team</Link></p></li>
+              <li><p><Link to='./about'>Our story</Link></p></li>
+              <li><p><Link to='./about'>Our values</Link></p></li>
+              <li><p><Link to='./about'>What we offer</Link></p></li>
+              <li><p><Link to='./about'>Our team</Link></p></li>
             </ul>
           </div>
           <div className="group">
             <p className='p-bold'>Get Involved</p>
             <ul>
-              <li><p><Link>Our story</Link></p></li>
-              <li><p><Link>Our values</Link></p></li>
-              <li><p><Link>What we offer</Link></p></li>
-              <li><p><Link>Our team</Link></p></li>
+              <li><p><Link to='./get-involved'>Volunteer</Link></p></li>
+              <li><p><Link to='./get-involved'>Donate</Link></p></li>
+              <li><p><Link to='./get-involved'>Wishlist</Link></p></li>
+              <li><p><Link to='./get-involved'>Partnership</Link></p></li>
             </ul>
           </div>
           <div className="group">
             <p className='p-bold'>Our Partners</p>
             <ul>
-              <li><p><Link>Children's Rescue Fund</Link></p></li>
-              <li><p><Link>Home for the Homeless</Link></p></li>
-              <li><p><Link>Learn To Be</Link></p></li>
-              <li><p><Link>Become a partner</Link></p></li>
+              <li><p><Link to='./programs'>Children's Rescue Fund</Link></p></li>
+              <li><p><Link to='./programs'>Home for the Homeless</Link></p></li>
+              <li><p><Link to='./programs'>Learn To Be</Link></p></li>
+              <li><p><Link to='./get-involved'>Become a partner</Link></p></li>
             </ul>
           </div>
           <div className="group contact-us">

@@ -12,15 +12,15 @@ const NavBar = () => {
   }
   return (
     <nav className='navbar'>
-      <img id='logo' src={logo} alt="" />
+      <Link to='/'><img id='logo' src={logo} alt="" /></Link>
       <div>
         <img id='menu-icon' src={menuOpen ? close : menu} onClick={handleToggle} alt="" />
         <ul className={menuOpen ? '' : 'close'}>
-        <li><Link>About</Link></li>
-        <li><Link>Programs</Link></li>
-        <li><Link>Get Involved</Link></li>
-        <li><Link>Contact</Link></li>
-        <button className='round-button'><Link>Promise Path</Link></button>
+        <li><Link to='./about'>About</Link></li>
+        <li><Link to='./programs'>Programs</Link></li>
+        <li><Link to='./get-involved'>Get Involved</Link></li>
+        <li><Link to='./contact'>Contact</Link></li>
+        <button className='round-button'><Link to='./promise-path'>Promise Path</Link></button>
       </ul>
       </div>
     </nav>

@@ -1,0 +1,41 @@
+.home-cta-volunteer {
+  background-image: url('../../asset/home/pexels-kampus-production-5940706\ 1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: end;
+  gap: 1rem;
+  padding: 10%;
+}
+
+.home-cta-volunteer h6 {
+  max-width: 80%;
+}
+/* Mobile */
+@media (max-width: 767px) {
+}
+  
+/* Tablet */
+@media (max-width: 991px) { 
+  .home-cta-volunteer {
+    padding: 10%;
+  }
+}
+
+/* Small Desktop */
+@media (min-width: 992px) {
+  .home-cta-volunteer {
+    padding: 5% 10%;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1200px) {
+
+}
+  

@@ -1,0 +1,33 @@
+.home-partners {
+  background-color: var(--primary-yellow);
+  padding: 30px 5%;
+}
+
+.home-partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.home-partners h4 {
+  color: var(--black)
+}
+
+.home-partners>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+@media (max-width: 991px) {
+  .home-partners img {
+    transform: scale(0.75);
+  }
+
+  .home-partners>div {
+    gap: 0.5rem;
+  }
+}
