@@ -1,7 +1,12 @@
 import './App.css';
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import Layout from './component/layout/Layout';
-import Home from './page/Home/Home';
+import Home from './page/home/Home';
+import GetInvolved from './page/get-involved/GetInvolved';
+import About from './page/about/About';
+import Programs from './page/programs/Programs';
+import Contact from './page/contact/Contact';
+import PromisePath from './page/promise-path/PromisePath';
 
 function App() {
   return (
@@ -10,6 +15,11 @@ function App() {
         <Routes>
           <Route>
             <Route path='/' element={<Home />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/programs' element={<Programs />} />
+            <Route path='/get-involved' element={<GetInvolved />} />
+            <Route path='/contact' element={<Contact/>} />
+            <Route path='/promise-path' element={<PromisePath />} />
           </Route>
         </Routes>
       </Layout>

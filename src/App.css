@@ -28,7 +28,7 @@
   --p-font-size: 1rem; 
   --small-font-size: 0.875rem; 
 
-  --regular-font-weight: 600;
+  --regular-font-weight: 500;
   --bold-font-weight: 700;
   --extra-bold-font-weight: 800;
 }
@@ -41,6 +41,7 @@ h1 {
 .h1-extra-bold {
   font-weight: var(--extra-bold-font-weight);
   font-size: var(--h1-font-size);
+  color: var(--primary-blue);
 }
 
 h2 {
@@ -56,6 +57,12 @@ h3 {
 h4 {
   font-weight: var(--regular-font-weight);
   font-size: var(--h4-font-size);
+}
+
+.h4-bold {
+  font-weight: var(--bold-font-weight);
+  font-size: var(--h4-font-size);
+  color: var(--primary-blue);
 }
 
 h5 {
@@ -173,5 +180,30 @@ li {
   html {
     font-size: 18px;
   }
+
+  .round-button {
+    padding: 1.5% 4%;
+  }
+}
+
+/* EMPTY BREAKPOINT TEMPLATE */
+/* Mobile */
+@media (max-width: 767px) {
+
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Small Desktop */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large Desktop */
+@media (min-width: 1200px) {
+
 }
 
