@@ -1,6 +1,5 @@
 import React from 'react'
 import './HomeStories.css'
-import { Link } from 'react-router-dom'
 import image1 from '../../asset/home/story1.png'
 import image2 from '../../asset/home/story2.png'
 import image3 from '../../asset/home/story3.png'

@@ -5,8 +5,8 @@ import HomeWhoWeServe from '../../component/home-who-we-serve/HomeWhoWeServe'
 import HomeCTAVolunteer from '../../component/home-cta-volunteer/HomeCTAVolunteer'
 import HomePrograms from '../../component/home-programs/HomePrograms'
 import HomePartners from '../../component/home-partners/HomePartners'
-import HomeStories from '../../component/home-stories/HomeStories'
 import HomeCTAGeneral from '../../component/home-cta-general/HomeCTAGeneral'
+import HomeLeadership from '../../component/home-leadership/HomeLeadership'
 
 const Home = () => {
   return (
@@ -17,7 +17,7 @@ const Home = () => {
       <HomeCTAVolunteer />
       <HomePrograms />
       <HomePartners />
-      <HomeStories />
+      <HomeLeadership />
       <HomeCTAGeneral />
     </main>
   )
