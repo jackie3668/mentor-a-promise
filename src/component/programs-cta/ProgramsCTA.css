@@ -1,0 +1,43 @@
+.programs-cta {
+  background-image: url('../../asset/programs/pexels-shvets-production-7516543\ 1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: start;
+  gap: 1rem;
+  padding: 10%;
+}
+
+.programs-cta h3,
+.programs-cta h6 {
+ max-width: 525px;
+}
+
+.programs-cta {
+  background-position: 0% 0%;
+  align-items: flex-start;
+  text-align: start;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .programs-cta {
+    background-position: 30% 0%;
+    align-items: flex-start;
+    text-align: start;
+    padding-top: 20%;
+  }
+  
+  .programs-cta h6 {
+    max-width: 350px;
+  }
+}
+
+/* Small Desktop */
+@media (min-width: 992px)  {
+}
