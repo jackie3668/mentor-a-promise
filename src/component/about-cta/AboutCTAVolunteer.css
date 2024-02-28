@@ -1,0 +1,46 @@
+.about-cta-volunteer {
+  background-image: url('../../asset/about/pexels-andrea-piacquadio-3807741\ 1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: 100vw;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: start;
+  gap: 1rem;
+  padding: 5% ;
+}
+
+.about-cta-volunteer h3,
+.about-cta-volunteer h6 {
+ max-width: 525px;
+}
+
+.about-cta-volunteer {
+  background-position: 0% 0%;
+  align-items: flex-start;
+  text-align: start;
+  padding: 5%;
+}
+
+/* Tablet */
+@media (max-width: 991px) {
+  .about-cta-volunteer {
+    background-position: 30% 0%;
+    align-items: flex-start;
+    text-align: start;
+    padding: 5%;
+  }
+  
+  .about-cta-volunteer h6 {
+    max-width: 350px;
+  }
+}
+
+/* Small Desktop */
+@media (min-width: 992px)  {
+
+}
