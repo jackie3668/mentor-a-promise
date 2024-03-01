@@ -1,0 +1,47 @@
+.promise-features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 5%;
+  gap: 3rem;
+}
+
+.promise-features>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  max-width: 300px;
+}
+
+.promise-features>div h5 {
+  font-weight: var(--bold-font-weight);
+  color: var(--primary-blue);
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .promise-features {
+    flex-direction: column;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Small Desktop */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large Desktop */
+@media (min-width: 1200px) {
+  .promise-features {
+    gap: 5rem;
+  }
+}
+

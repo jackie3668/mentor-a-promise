@@ -1,0 +1,48 @@
+.get-involved-other {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 50px 5%;
+}
+
+.get-involved-other>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  max-width: 400px;
+}
+
+.get-involved-other .blue-square-button {
+  padding: 3% 8%;
+}
+/* Mobile */
+@media (max-width: 767px) {
+  .get-involved-other {
+    flex-direction: column;
+  }
+
+  .get-involved-other>div {
+    max-width: 300px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .get-involved-other {
+    padding: 50px 10%;
+  }
+}
+
+/* Small Desktop */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Large Desktop */
+@media (min-width: 1200px) {
+
+}

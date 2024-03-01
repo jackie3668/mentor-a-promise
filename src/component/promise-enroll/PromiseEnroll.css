@@ -1,0 +1,49 @@
+.promise-enroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 5%;
+  gap: 2rem;
+}
+
+.promise-enroll>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+/* Mobile */
+@media (max-width: 767px) {
+  .promise-enroll {
+    flex-direction: column;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .promise-enroll img {
+    max-width: 350px;
+  }
+}
+
+/* Small Desktop */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .promise-enroll img,
+  .promise-enroll>div {
+    max-width: 450px;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1200px) {
+  .promise-enroll {
+    gap: 4rem;
+  }
+  
+  .promise-enroll img,
+  .promise-enroll>div {
+    max-width: 600px;
+  }
+}
+

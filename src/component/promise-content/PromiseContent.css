@@ -1,0 +1,51 @@
+.promise-content {
+  padding: 50px 5%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 2rem;
+}
+
+.promise-content>div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .promise-content {
+    flex-direction: column;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  .promise-content {
+    flex-direction: column;
+    padding: 50px 10%;
+  }
+}
+
+/* Small Desktop */
+@media (min-width: 992px) {
+  .promise-content>div {
+    gap: 1rem;
+    max-width: 450px;
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1200px) {
+  .promise-content {
+    gap: 4rem;
+    padding: 50px 10%;
+  }
+
+  .promise-content>div {
+    gap: 1rem;
+    max-width: 600px
+  }
+}
+
