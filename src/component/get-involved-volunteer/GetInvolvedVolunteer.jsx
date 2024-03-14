@@ -29,7 +29,7 @@ const GetInvolvedVolunteer = () => {
           <li>Summer Youth Program Manager</li>
           <li>Social Media Manager</li>
         </ul>
-        <button className="round-button"><Link to='/contact'>Contact Us</Link></button>
+        <button className="round-button" onClick={() => window.scrollTo(0, 0)}><Link to='/contact'>Contact Us</Link></button>
       </div>
     </div>
   )

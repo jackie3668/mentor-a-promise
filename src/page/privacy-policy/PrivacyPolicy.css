@@ -1,0 +1,74 @@
+#privacy .secondary-heading {
+  margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 1150px) {
+  #privacy .agreement-para {
+    text-align: center;
+  }
+}
+
+/* PrivacyPolicy.css */
+
+#privacy {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.secondary-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.agreement-para {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.agreement-ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.agreement-ul li {
+  font-size: 16px;
+  list-style: disc;
+  line-height: 1.6;
+}
+
+
+
+h1.secondary-heading {
+  font-size: 36px;
+}
+
+.form-h2 {
+  margin-bottom: 1rem;
+}
+
+.contact-info {
+  font-style: italic;
+  color: #888;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #888;
+}

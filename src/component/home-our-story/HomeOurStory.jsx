@@ -15,7 +15,7 @@ const HomeOurStory = () => {
           <br />
           From the very beginning, we recognized the immense potential within each individual and sought to provide them with the educational resources and opportunities needed to succeed. Through partnerships with family shelters, educational institutions, and community organizations, we have built a strong network that supports youths experiencing homelessness and helps them to overcome adversity and forge their own path towards a brighter future.
         </p>
-        <button className='round-button'><Link to='./about'>Learn More</Link></button>
+        <button className='round-button' onClick={() => window.scrollTo(0, 0)}><Link to='./about'>Learn More</Link></button>
       </div>
     </div>
   )

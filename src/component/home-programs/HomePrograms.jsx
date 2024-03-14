@@ -13,7 +13,7 @@ const HomePrograms = () => {
           <img src={image1} alt="" />
           <h6>In-Person Services</h6>
           <p> Our organization collaborates with partner organizations to deliver on-site assistance. Through our initiatives, we have facilitated the provision of desktop computers and donated laptops. Additionally, our dedicated mentors engage with students to offer mentorship and academic guidance.</p>
-          <button className='round-button'><Link to='./programs'>Learn More</Link></button>
+          <button className='round-button' onClick={() => window.scrollTo(0, 0)}><Link to='./programs'>Learn More</Link></button>
         </div>
         <div>
           <img src={image2} alt="" />
